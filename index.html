@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>逸咖啡 | Yi coffee</title>
+
+    <!-- 網址列小圖示外掛 -->
+    <link href="img/favicon.ico" rel="shortcut icon" />
+    <!-- FB小圖示外掛 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!--aos 外掛插件  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top  ">
+        <div class="container-fluid container" >
+            <a class="navbar-brand me-auto" href="./index.html">
+                <img src="./img/S__53452970.jpg" alt="">
+            </a>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">逸咖啡 | Yi coffee</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active mx-lg-2" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./about.html">關於我們</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./product.html">產品列表</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./store.html">門市資訊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-lg-2" href="./contact.html">聯絡我們</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <!-- 彈跳式視窗 -->
+            <a href="#" class="login-button" type="button" data-bs-toggle="modal" data-bs-target="#loginmodal">會員登入</a>
+            <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <!--END Navbar -->
+
+    <!-- 輪播控制器 -->
+    <div id="carouselExampleControls" class="carousel slide carousel-fade  " data-bs-ride="carousel" style="padding-top: 79px;" >
+        <div class="carousel-inner">
+            <div class="carousel-item header-carousel-item active bg-cover"
+                style="background-image: url(./img/04.jpg);">
+
+            </div>
+            <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(./img/02.jpg);">
+
+            </div>
+            <div class="carousel-item header-carousel-item bg-cover" style="background-image: url(./img/03.jpg);">
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- 輪播控制器END -->
+
+    <!-- 我們的理念 -->
+    <section class="py-4">
+        <div class="container ">
+            <h2 class="py-5" data-aos="fade-up">我們的理念</h2>
+            <div class="row">
+                <div class="col-md-6 "data-aos="fade-up" >
+                    <div class="ps-5">
+                        <div class="my-3" style="color:rgba(210, 105, 30, 0.774);"><i
+                                class="fa-solid fa-mug-hot fa-4x"></i></div>
+                        <div class="row">
+                            <div class="col-md-10 ms-1">
+                                <h3>堅持嚴選</h3>
+                                <p class="ms-3 mt-3">
+                                    ​Yi咖啡堅持單一莊園咖啡，嚴選世界知名產區高海拔生豆，手工篩選品管，以專業獨家烘焙法，新鮮自家烘焙，讓您簡單沖泡出咖啡館般的手沖精品咖啡。讓Yi咖啡的回甘，喚醒美好的一天。
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div class="ps-5" data-aos="fade-up">
+                        <div class="my-3" style="color:rgba(96, 210, 30, 0.774);"><i
+                                class="fa-brands fa-pagelines fa-4x"></i></div>
+                        <div class="row">
+                            <div class="col-md-10 ms-1">
+                                <h3>Yi起生活</h3>
+                                <p class="ms-3 mt-3">Yi咖啡中文為 逸 ，
+                                    取其本意意旨為提供現代上班族繁忙的生活中，一個可以安逸悠閒的據點，而品牌“YI”則希望"逸"咖啡能提供消費者滿意且愉快的消費經驗，成為您生活的好所在。</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--營業時間  -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="py-5" data-aos="fade-up">營業時間</h2>
+            <div class="row">
+                <div class="col-md-6 "data-aos="slide-right">
+                    <img class="img-fluid" src="./img/05.jpg" alt="">
+
+                </div>
+                <div class="col-md-6 row align-items-center">
+                    <dl class="row" data-aos="fade-left">
+                        <dt class="col-sm-3 h4"></dt>
+                        <dd class="col-sm-9"></dd>
+
+                        <dt class="col-sm-3">營業時間</dt>
+                        <dd class="col-sm-9">
+                            <dl class="row">
+                                <dd class="col-sm-12">上午七點至下午五點</dd>
+                                <dd class="col-sm-12">每周四固定公休</dd>
+                            </dl>
+                        </dd>
+
+                        <dt class="col-sm-3">內用須知</dt>
+                        <dd class="col-sm-9">低消為一人一杯飲品，如客滿用餐時間為九十分鐘。</dd>
+
+                        <br>
+                        <br>
+                        <br>
+
+
+                        <dt class="col-sm-3">注意事項</dt>
+                        <dd class="col-sm-9">
+                            <dl class="row">
+                                <dd class="col-sm-12">禁用外食</dd>
+                                <dd class="col-sm-12">戶外禁止吸菸</dd>
+                                <dd class="col-sm-12">寵物需在籠內或是戶外區</dd>
+                                <dd class="col-sm-12">甜點不提供外帶服務</dd>
+
+                            </dl>
+                        </dd>
+                    </dl>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+    <!-- 跳出視窗內容 -->
+    <div class="modal fade" id="loginmodal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- header -->
+                <div class="modal-header">
+                    <h5 class="modal-title">會員登入</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <!-- body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="useremail">會員帳號</label>
+                            <input type="email" class="account form-control" placeholder="Email" id="useremail">
+                        </div>
+                        <div class="form-group">
+                            <label for="userpassword">會員密碼</label>
+                            <input type="password" class="password form-control" placeholder="Password"
+                                id="userpassword">
+                        </div>
+                        <!-- checkbox -->
+                        <div class="form-group">
+                            <input type="checkbox" class="remember">記住帳號
+                        </div>
+
+                        <!-- 送出按鈕 -->
+                        <button type="button" class="btn btn-primary btn-lg">登入</button>
+                    </form>
+
+                </div>
+                <!-- footer -->
+                <div class="modal-footer">
+                    <div class="signup">
+                        <span>尚未成為會員</span>
+                        <a href="" type="button" class="member">立即加入</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 跳出視窗內容END -->
+
+    <!-- 下方白框設計 -->
+    <Footer class="py-4 mt-3  ">
+
+        <div class="container d-flex justify-content-between ">
+            <div class="fs-5">
+                Copyright © 2024 逸咖啡Yi coffee
+            </div>
+
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-line"></i></a>
+            </div>
+        </div>
+
+
+    </Footer>
+    <!-- 下方白框設計END -->
+     <!--AOS插件  -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <script>
+         AOS.init({duration:2000,}
+             
+         );
+     </script>
+    <!-- bootstrap js 外掛 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

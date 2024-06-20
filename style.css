@@ -1,0 +1,186 @@
+/* 修改body得預設字體 */
+body{
+    font-family:
+    /* 1 */  -apple-system, BlinkMacSystemFont,
+    /* 2 */ "Microsoft JhengHei", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", 
+    /* 3 */ "Helvetica Neue", sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    height: 80px;
+    
+}
+
+/* 會員登入按鈕樣式 */
+.login-button{
+    background-color: #ffff9e;
+    color: #000000;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;  /* 設定圓角 */
+    text-decoration: none; /* 去除超連結底線 */
+    transition: 0.3s background-color;
+}
+/* 設定按鈕滑鼠懸停樣式 */
+.login-button:hover{
+    
+    background-color: #ffff52;
+    
+}
+/* 設定漢堡框線樣式 */
+.navbar-toggler{
+    border: none;
+    font-size:1.25rem;
+}
+
+/* 清除漢堡點選框線 */
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline:none;
+}
+/* 清除叉叉點選框線 */
+.btn-close:focus{
+    box-shadow: none;
+    outline:none;
+}
+/* 設定標籤列字體顏色 */
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+/* 設定標籤列滑鼠懸停字體顏色 */
+.nav-link:hover , .nav-link.active{
+    color: #df2e2e; 
+}
+/*  麵包屑設定---------- */
+.breadcrumb-item a{
+    color: #000000;
+    text-decoration: none;
+}
+.breadcrumb-item a:hover{
+    color: #df2e2e;
+    
+}
+
+
+
+
+/* 設定項目列表底線 */
+.nav-link::before{
+    content: ""; /* 新增偽元素 */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 0;
+    height: 2.8px;
+    background-color:#2e6cdf ;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+}
+/* 設定項目列表底線滑鼠懸停 */
+.nav-link:hover:before{
+    width: 100%;
+    visibility: visible;
+}
+
+
+.social-icon>a{
+    font-size: 25px;
+    color: #666777;
+    margin-right: 20px;
+    
+}
+.social-icon> a:hover{
+   color:  #2e6cdf; 
+}
+
+/* =================================================================== */
+
+/* 跳出視窗 */
+
+
+
+/* 改按鈕寬度 */
+.modal-body form .btn{
+    width: 100%;
+}
+
+.modal-body form .account , .modal-body form .password{
+    margin: 5px 0px 20px 0px;   
+}
+
+.remember{
+    margin: 0px 10px 20px 2px;
+}
+
+/* ================================================================ */
+/* 輪播元件 */
+/* 設定元件高度 */
+.header-carousel-item{
+    height: 500px;
+    
+}
+
+/* 設定圖片置中裁切 */
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+.bg-cover2{
+    background-size: cover;
+    background-position: bottom center;
+}
+/* 產品列表 */
+
+/* 圖片陰影 */
+.box-shadow{
+    box-shadow : 0 3px 5px rgba(0, 0,0, 0.16);
+    transition: box-shadow .3s;
+}
+
+.box-shadow:hover{
+    box-shadow : 0 5px 8px rgba(0, 0,0, 0.30);
+}
+
+/* 動畫插件================================ */
+.arrow {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: -1%;
+    animation-name: beat;
+    /*動畫名稱*/
+    animation-duration: .7s;
+    /*設置秒數*/
+    animation-timing-function: linear;
+    /*速度曲線*/
+    animation-iteration-count: infinite;
+    /*播放次數*/
+    animation-direction: alternate;
+    /*逆向播放*/
+    animation-play-state: running;
+    /*正在運行*/
+}
+
+@keyframes beat {
+    30% {
+        bottom: 10%;
+    }
+
+    100% {
+        bottom: 20%;
+    }
+}
+
+.arrow img {
+    width: 200px;
+}
+
+.bss{
+    height: 650px;
+}
